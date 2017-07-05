@@ -69,7 +69,5 @@ public abstract class Command {
     /*
      * Method to check if Command mutates data. returns false by default
      */
-    public boolean isMutating(){
-        return false;
-    }
+    public abstract boolean isMutating();
 }
